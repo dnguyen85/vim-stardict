@@ -76,7 +76,7 @@ def getDefinition(argsListList, caller="vim"):
     argsListList[0].insert(0, "-n")
     argsListList[0].insert(0, "sdcv")
 
-    f = open("/home/phongvcao/vim-stardict-output.txt", "w")
+    f = open("/tmp/vim-stardict-output.txt", "w")
     f.write(str(argsListList))
     f.close()
 
